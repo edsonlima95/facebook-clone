@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Helvetica',sans-serif;
+    font-size: 14px;
     /* background-color: #f0f2f5; */
-     @apply bg-zinc-800;
+     @apply bg-zinc-900;
 }

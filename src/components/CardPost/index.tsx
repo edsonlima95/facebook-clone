@@ -1,9 +1,9 @@
 import { ChatText, Share, ThumbsUp } from "phosphor-react";
 
-function PostItem() {
+function Post() {
 
     return (
-        <div className="flex flex-col bg-zinc-700 rounded-lg mb-10">
+        <div className="flex flex-col bg-zinc-800 rounded-lg mb-10">
             <div className="flex items-center p-5 ">
                 <div className="w-12 h-12">
                     <img src="/images/perfil.jpg" className="rounded-full" alt="" />
@@ -16,21 +16,27 @@ function PostItem() {
 
             <img src="/images/perfil.jpg" alt="" />
 
-            <div>
-                
+            <div className="flex gap-1 p-3 ">
+                <div className="w-5 h-5">
+                    <img src="/images/curtir.svg" alt="" />
+                </div>
+                <div className="w-5 h-5">
+                    <img src="/images/curtir2.svg" alt="" />
+                </div>
+                <p className="underline text-gray-400">edson lima e outras 20 pessoas curtiram</p>
             </div>
 
             <div className="flex justify-between p-3">
                 <div className="flex text-gray-200 p-5 hover:bg-gray-600 hover:rounded-lg">
-                    <ThumbsUp size={24}className="mr-2" />
+                    <ThumbsUp size={24} className="mr-2" />
                     <span>curtir</span>
                 </div>
                 <div className="flex text-gray-200 p-5 hover:bg-gray-600 hover:rounded-lg">
-                    <ChatText size={24}className="mr-2" />
+                    <ChatText size={24} className="mr-2" />
                     <span>comentar</span>
                 </div>
                 <div className="flex text-gray-200 p-5 hover:bg-gray-600 hover:rounded-lg">
-                    <Share size={24} className="mr-2"/>
+                    <Share size={24} className="mr-2" />
                     <span>compartilhar</span>
                 </div>
             </div>
@@ -40,4 +46,4 @@ function PostItem() {
 
 }
 
-export default PostItem;
+export default Post;

@@ -1,11 +1,14 @@
 import Chat from './components/Chat'
 import Layout from './components/Layout'
+import MainContent from './components/MainContent'
 import MenuLeft from './components/MenuLeft'
 import MenuLeftItem from './components/MenuLeft/MenuLeftItem'
 import MenuRight from './components/MenuRight'
-import Post from './components/Posts'
-import PostItem from './components/Posts/PostItem'
+import Post from './components/CardPost'
+import Store from './components/Stories'
+import StoreItem from './components/Stories/StoreItem'
 import './styles/global.css'
+import PostWriter from './components/PostWrite'
 
 
 function App() {
@@ -15,6 +18,7 @@ function App() {
   return (
     <Layout>
       <>
+        {/* MENU LATERAL ESQUERDO */}
         <MenuLeft>
           <MenuLeftItem title='edson lima' imgUrl='/images/perfil.jpg' />
           <MenuLeftItem title='Amigos' imgUrl='/images/amigo.png' />
@@ -27,19 +31,30 @@ function App() {
           <MenuLeftItem title='Salvos' imgUrl='/images/video.png' />
         </MenuLeft>
 
+        {/* MENU LATERAL DIREITO */}
         <MenuRight>
           {arr.map(_ => (
             <Chat title='Edson lima' imgUrl='/images/perfil.jpg' />
           ))}
-          {/* <Chat title='Edson lima' imgUrl='/images/perfil.jpg' />
-          <Chat title='Edson lima' imgUrl='/images/perfil.jpg' /> */}
-
+         
         </MenuRight>
 
-        <Post>
-          <PostItem />
-          <PostItem />
-        </Post>
+        {/* CONTEUDO DO CENTRO */}
+        <MainContent>
+
+          <Store>
+            <StoreItem title="edson lima" imageUrl='/images/perfil.jpg' imagePerfil="/images/perfil.jpg" />
+            <StoreItem title="edson lima" imageUrl='/images/perfil.jpg' imagePerfil="/images/perfil.jpg" />
+            <StoreItem title="edson lima" imageUrl='/images/perfil.jpg' imagePerfil="/images/perfil.jpg" />
+            <StoreItem title="edson lima" imageUrl='/images/perfil.jpg' imagePerfil="/images/perfil.jpg" />
+          </Store>
+
+          <PostWriter />
+
+          <Post />
+          <Post />
+
+        </MainContent>
 
       </>
     </Layout>

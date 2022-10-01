@@ -1,9 +1,8 @@
-
-type PostProps = {
+type MainContentProps = {
     children: React.ReactNode
 }
 
-function Post({ children }: PostProps) {
+function MainContent({ children }: MainContentProps) {
 
     return (
         <div className="relative top-16 ml-[340px] min-w-[600px] w-[600px] pt-6">
@@ -13,6 +12,4 @@ function Post({ children }: PostProps) {
 
 }
 
-export default Post
-
-
+export default MainContent
