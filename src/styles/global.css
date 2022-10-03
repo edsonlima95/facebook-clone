@@ -16,6 +16,6 @@ div.scroll-right::-webkit-scrollbar {
 }
 
 div.scroll-right::-webkit-scrollbar-thumb {
-  @apply bg-green-500;   /* color of the scroll thumb */
+  @apply bg-blue-500;   /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
  }

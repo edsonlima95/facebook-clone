@@ -8,7 +8,7 @@ type MenuRightProps = {
 function MenuRight({ children }: MenuRightProps) {
 
     return (
-        <div className="scroll-right fixed top-16 px-3 py-6 right-0 w-3/12 h-full overflow-y-auto">
+        <div className="hidden lg:block scroll-right fixed top-16 px-3 py-6 right-0 w-3/12 h-full overflow-y-auto">
 
             <div className="flex flex-col text-gray-300">
                 <p className="text-gray-500 font-semibold mb-5">Aniversários</p>
