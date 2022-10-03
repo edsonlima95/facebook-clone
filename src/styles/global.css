@@ -7,4 +7,15 @@ body {
     font-size: 14px;
     /* background-color: #f0f2f5; */
      @apply bg-zinc-900;
+
 }
+
+
+div.scroll-right::-webkit-scrollbar {
+  width: 8px;               /* width of the entire scrollbar */
+}
+
+div.scroll-right::-webkit-scrollbar-thumb {
+  @apply bg-green-500;   /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+ }

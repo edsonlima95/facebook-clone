@@ -20,7 +20,7 @@ function App() {
       <>
         {/* MENU LATERAL ESQUERDO */}
         <MenuLeft>
-          <MenuLeftItem title='edson lima' imgUrl='/images/perfil.jpg' />
+          <MenuLeftItem title='edson lima' imgUrl='/images/perfil.jpg' style='col-span-full' />
           <MenuLeftItem title='Amigos' imgUrl='/images/amigo.png' />
           <MenuLeftItem title='Doação' imgUrl='/images/doacao.png' />
           <MenuLeftItem title='Jogos' imgUrl='/images/jogo.png' />
