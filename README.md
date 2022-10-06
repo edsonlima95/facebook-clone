@@ -13,4 +13,4 @@ Acesse o site clicando nesse link.
 
 https://633ae7720af2b20072ee0de5--flourishing-sunshine-df609f.netlify.app
 
-<img src="https://raw.githubusercontent.com/edsonlima95/screenshot/main/portfolio.png" all=""/>
+<img src="https://raw.githubusercontent.com/edsonlima95/screenshot/main/faceclone.jpeg" all=""/>
